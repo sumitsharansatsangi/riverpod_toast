@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## [0.0.1-dev.1] - 2025-07-23
+## [0.1.0-dev.1] - 2025-07-23
 
 ### 🎉 Initial Release
 - Riverpod v3-native toast management system
