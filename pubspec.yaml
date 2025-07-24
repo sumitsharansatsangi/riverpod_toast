@@ -9,7 +9,6 @@ topics:
   - snackbar
   - riverpod
   - riverpod-toast
-  - message
   - notification
 
 environment:
