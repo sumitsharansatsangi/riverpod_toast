@@ -1,9 +1,9 @@
 name: riverpod_toast
 description: A Riverpod-based toast notification system with overlay support, localization, and adaptive theming.
-version: 0.1.0
+version: 0.1.0-dev.1
 homepage: https://www.kumpali.com
 repository: https://github.com/sumitsharansatsangi/riverpod_toast/
-
+changelog: CHANGELOG.md
 topics:
   - toast
   - snackbar
