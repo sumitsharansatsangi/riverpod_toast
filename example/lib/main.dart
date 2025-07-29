@@ -55,6 +55,7 @@ class _ToastContextRegistrarState extends ConsumerState<ToastContextRegistrar> {
   @override
   void initState() {
     super.initState();
+    longTask();
     // Wait until the widget is in the tree
     WidgetsBinding.instance.addPostFrameCallback((_) {
       final controller = ref.read(toastControllerProvider.notifier);
@@ -66,6 +67,11 @@ class _ToastContextRegistrarState extends ConsumerState<ToastContextRegistrar> {
   @override
   Widget build(BuildContext context) {
     return widget.child;
+  }
+
+  Future<void> longTask() async {
+    await Future.delayed(const Duration(seconds: 3));
+    showToastFlexible(ref, 'Long task completed!', type: ToastType.success);
   }
 }
 

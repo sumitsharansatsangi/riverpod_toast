@@ -183,7 +183,7 @@
     },
     {
       "name": "easy_localization",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/easy_localization-3.0.7+1",
+      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/easy_localization-3.0.8",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -719,6 +719,6 @@
   "generator": "pub",
   "generatorVersion": "3.8.1",
   "flutterRoot": "file:///Users/amitsharan/development/flutter",
-  "flutterVersion": "3.32.7",
+  "flutterVersion": "3.32.8",
   "pubCache": "file:///Users/amitsharan/.pub-cache"
 }
