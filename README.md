@@ -93,13 +93,13 @@ flutter pub add riverpod_toast
 ````
 
 Make sure to also have:
-
+(see example/pubspec.yaml)
 ```yaml
 dependencies:
-  flutter_riverpod: ^2.5.1
-  riverpod_annotation: ^3.0.0-dev.16
-  easy_localization: ^3.0.5
-  flutter_styled_toast: ^2.1.3
+  flutter_riverpod: ^3.0.0
+  riverpod_annotation: ^3.0.0
+  easy_localization: ^3.0.8
+  flutter_styled_toast: ^2.2.1
   build_runner:
   riverpod_generator:
 ```

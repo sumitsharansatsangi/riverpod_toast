@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.1.0
+
+- Fist final release
+
 ## [0.1.0-dev.1] - 2025-07-23
 
 ### 🎉 Initial Release
